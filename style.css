@@ -1,0 +1,138 @@
+body {
+    background-color: #22212C;
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+    font-family: 'Merriweather Sans', sans-serif;
+    color: #837E9F;
+}
+
+.boxProfile {
+    background-color:#302F3D;
+    border-radius: 12px;
+    box-shadow: 10px 10px 10px #0b0b0b66;
+    width: 348px;
+    height: 292px;
+    position: relative;
+    margin: 60px;
+    padding: 15px 40px 40px;
+}
+
+#photoProfile {
+
+    background-color: #ffffff00;
+    border-radius: 100%;
+    width: 128px;
+    height: 128px;
+    overflow: hidden;
+    position: relative;
+    margin: 40px auto;
+    border: 2px solid #837E9F;
+    
+}
+
+#photoProfile img {
+    border-radius: 100%;
+    width: 97%;
+    display: flex;
+    position: relative;
+    margin: 2px auto;
+}
+
+#profile {
+    position: relative;
+    margin: 20px auto;
+    
+}
+
+#name {
+    font-size: 26px;
+    text-align: center;
+}
+
+#func {
+    font-size: 16px;
+    text-align: center;
+}
+
+.socialBar {
+    background-color:#302F3D;
+    border-radius: 12px;
+    box-shadow: 10px 10px 10px #0b0b0b66;
+    font-size: 15px;
+    width: 348px;
+    height: 292px;
+    position: relative;    
+    margin: 60px;
+    padding: 40px;
+    
+}
+
+#containerMap, #containerBriefcase, #containerGithub, #containerLinkedin, #containerTwitter, #containerSite, #containerMail {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+#map-pin, #briefcase, #github, #linkedin, #twitter, #globe, #mail{    
+    margin: 10px;
+    
+}
+
+#local, #enterpraise, #profileGithub, #profileLinkedin, #profileTwitter, #site, #profileMail{
+    font-weight: 400;
+    line-height: 16px;
+    margin: 10px;
+}
+
+.containerTech {
+    background-color:#302F3D;
+    border-radius: 12px;
+    box-shadow: 10px 10px 10px #0b0b0b66;
+    width: 348px;
+    height: 200px;
+    position: relative;
+    margin: 60px;
+    padding: 40px;
+}
+
+#tech{
+    margin: 0 auto 50px;
+}
+
+.techCards {
+    color: #000;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;    
+}
+
+.cards{
+    background: #CB92B1;
+    border-radius: 30px;
+    font-weight: 700;
+    width: 90px;
+    height: 24px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 5px 20px 5px;
+}
+
+.containerExp{
+    background-color:#302F3D;
+    border-radius: 12px;
+    box-shadow: 10px 10px 10px #0b0b0b66;
+    width: 348px;
+    height: 349px;
+    position: relative;
+    margin: 60px;
+    padding: 40px;
+}
+
+.expList{
+    display: flex;
+    flex-direction: column;
+}
+
