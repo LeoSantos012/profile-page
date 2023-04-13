@@ -93,7 +93,7 @@ body {
     height: 200px;
     position: relative;
     margin: 60px;
-    padding: 40px;
+    padding: 20px;
 }
 
 #tech{
@@ -128,11 +128,27 @@ body {
     height: 349px;
     position: relative;
     margin: 60px;
-    padding: 40px;
+    padding: 20px;
 }
+
 
 .expList{
     display: flex;
     flex-direction: column;
 }
 
+.containerStudy{
+    background-color:#302F3D;
+    border-radius: 12px;
+    box-shadow: 10px 10px 10px #0b0b0b66;
+    width: 348px;
+    height: 349px;
+    position: relative;
+    margin: 60px;
+    padding: 20px;
+}
+
+.studyList{
+    display: flex;
+    flex-direction: column;
+}
